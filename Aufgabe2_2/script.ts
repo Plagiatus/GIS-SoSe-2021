@@ -15,7 +15,7 @@ namespace Aufgabe2_2 {
   }
 
 
-  let obj = { a: 1, d: 2 };
+  // let obj = { a: 1, d: 2 };
   let p1: Person = {
     vorname: "Lukas",
     alter: 26,

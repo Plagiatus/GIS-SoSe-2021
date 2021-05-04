@@ -3,7 +3,7 @@ var Aufgabe2_2;
 (function (Aufgabe2_2) {
     let arr2 = [];
     console.log(arr2);
-    let obj = { a: 1, d: 2 };
+    // let obj = { a: 1, d: 2 };
     let p1 = {
         vorname: "Lukas",
         alter: 26,
