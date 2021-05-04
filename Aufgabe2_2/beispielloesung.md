@@ -176,7 +176,7 @@ function join(_a: number[], _b: number[]): number[] {
 		joined.push(_a[i]);
 	}
 	for(let i: number = 0; i < _b.length; i++) {
-		joined.push(_a[i]);
+		joined.push(_b[i]);
 	}
 	return joined;
 }
@@ -454,12 +454,29 @@ updateRectangles();
 
 function updateRectangles(): void{
 	context.clearRect(0, 0, canvas.width, canvas.height);
+	for(let rect of rects){
+		rect.moveAndDraw();
+	}
+
 	setTimeout(updateRectangles, 50);
+}
+```
+
+Alternativ kann man statt `setTimeout` auch `setInterval` verwenden.
+
+```ts
+
+function updateRectangles(): void{
+	context.clearRect(0, 0, canvas.width, canvas.height);
 	for(let rect of rects){
 		rect.moveAndDraw();
 	}
 }
+
+setInterval(updateRectangles, 50);
 ```
+
+Auch eine gute Lösung, aber aufwändiger weil man dann mehr Zeit mit Zeitmanagement verbringen muss, wäre `requestAnimationFrame` zu nutzen.
 
 ### g)
 
@@ -536,10 +553,10 @@ updateCanvas();
 
 function updateCanvas(): void{
 	context.clearRect(0, 0, canvas.width, canvas.height);
-	setTimeout(updateCanvas, 50);
 	for(let obj of objects){
 		obj.moveAndDraw();
 	}
+	setTimeout(updateCanvas, 50);
 }
 ```
 
