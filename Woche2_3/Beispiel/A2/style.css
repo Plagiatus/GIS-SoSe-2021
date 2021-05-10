@@ -1,0 +1,38 @@
+body {
+	background-image: url("./img/background.png");
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: silver;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+#selectionWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.alienpart {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	box-shadow: 5px 5px 0px 0px silver;
+	border: 1px solid black;
+	background-color: black;
+}
+
+.alienpart span {
+	text-align: center;
+	font-style: italic;
+	margin: 10px 0;
+	font-size: larger;
+}
+
+.alienpart button {
+	max-width: 100px;
+	align-self: center;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	font-size: large;
+}
