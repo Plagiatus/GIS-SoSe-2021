@@ -25,4 +25,8 @@ async function communicate(_url) {
     console.log(serverReply.gruss);
 }
 communicate("https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.5/testjson.json");
+async function loadTest() {
+    await fetch("./data/test.json"); // relativ
+    await fetch("https://plagiauts.github.io/GIS-SoSe-2021/Woche2_5/VL/data/test.json"); //absolut
+}
 //# sourceMappingURL=script.js.map

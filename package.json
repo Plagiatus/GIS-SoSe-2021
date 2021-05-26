@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@types/node": "^15.6.1"
+  },
+  "name": "gis-sose-2021",
+  "description": "Hallo liebe Studis",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plagiatus/GIS-SoSe-2021.git"
+  },
+  "author": "Lukas Scheuerle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plagiatus/GIS-SoSe-2021/issues"
+  },
+  "homepage": "https://github.com/Plagiatus/GIS-SoSe-2021#readme"
+}
