@@ -1,0 +1,44 @@
+{
+	"heads": [
+		{
+			"image": "./img/heads/1.png",
+			"origin": "Mars"
+		},
+		{
+			"image": "./img/heads/2.png",
+			"origin": "Venus"
+		},
+		{
+			"image": "./img/heads/3.png",
+			"origin": "Jupiter"
+		}
+	],
+	"torsos": [
+		{
+			"image": "./img/torsos/1.png",
+			"origin": "Mars"
+		},
+		{
+			"image": "./img/torsos/2.png",
+			"origin": "Venus"
+		},
+		{
+			"image": "./img/torsos/3.png",
+			"origin": "Jupiter"
+		}
+	],
+	"legs": [
+		{
+			"image": "./img/legs/1.png",
+			"origin": "Mars"
+		},
+		{
+			"image": "./img/legs/2.png",
+			"origin": "Venus"
+		},
+		{
+			"image": "./img/legs/3.png",
+			"origin": "Jupiter"
+		}
+	]
+}

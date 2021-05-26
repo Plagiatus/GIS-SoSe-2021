@@ -34,3 +34,8 @@ interface DozentenAntwortVomServer {
   text: string;
   zweiterText: string;
 }
+
+async function loadTest(): Promise<void> {
+  await fetch("./data/test.json");      // relativ
+  await fetch("https://plagiauts.github.io/GIS-SoSe-2021/Woche2_5/VL/data/test.json"); //absolut
+}
