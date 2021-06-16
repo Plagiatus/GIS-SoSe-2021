@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "@types/node": "^15.6.1"
+    "@types/mongodb": "^3.6.18",
+    "@types/node": "^15.6.1",
+    "mongodb": "^3.6.9"
   },
   "name": "gis-sose-2021",
   "description": "Hallo liebe Studis",
